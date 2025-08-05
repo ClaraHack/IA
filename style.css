@@ -14,8 +14,7 @@ body {
     align-items: center;
     min-height: 100vh;
     font-family: 'Montserrat', sans-serif;
-    padding: 20px;
-    box-sizing: border-box;
+    margin: 0;
 }
 
 .caixa-principal {
@@ -32,7 +31,7 @@ h1 {
     color: var(--cor-destaque);
 }
 
-.botao-alternativa {
+button {
     background-color: var(--cor-secundaria);
     color: var(--cor-texto);
     border: none;
@@ -45,7 +44,7 @@ h1 {
     transition: background-color 0.3s ease;
 }
 
-.botao-alternativa:hover {
+button:hover {
     background-color: var(--cor-destaque);
     color: white;
 }
@@ -63,4 +62,23 @@ h1 {
 
 .caixa-resultado.visivel {
     display: block;
+}
+
+body {
+    background-color: #ffa5e4;
+    background-image: radial-gradient(circle, rgba(107, 48, 104, 0.466) 1px, transparent 1px), radial-gradient(circle, rgba(255, 255, 255, 0.1) 1px, transparent 1px);
+    background-size: 30px 30px;
+    animation: twinklingStars 2s linear infinite;
+}
+
+@keyframes twinklingStars {
+    0% {
+        background-position: 0 0, 15px 15px;
+    }
+    50% {
+        background-position: 15px 15px, 0 0;
+    }
+    100% {
+        background-position: 0 0, 15px 15px;
+    }
 }
