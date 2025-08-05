@@ -66,7 +66,7 @@ button:hover {
 
 body {
     background-color: #ffa5e4;
-    background-image: radial-gradient(circle, rgba(107, 48, 104, 0.466) 1px, transparent 1px), radial-gradient(circle, rgba(255, 255, 255, 0.1) 1px, transparent 1px);
+    background-image: radial-gradient(circle, rgba(107, 48, 104, 0.466) 1px, transparent 1px), radial-gradient(circle, rgba(66, 0, 97, 0.377) 1px, transparent 1px);
     background-size: 30px 30px;
     animation: twinklingStars 2s linear infinite;
 }
